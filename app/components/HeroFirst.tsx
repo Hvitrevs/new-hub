@@ -16,6 +16,13 @@ const HeroFirst = () => {
     <>
       <div className='flex items-center'>
         <div className='xl:pl-40 md:pb-10 flex flex-col gap-2 z-[10] max-w-[850px]'>
+          <div className='flex items-center pb-4'>
+            <div className='p-2 border-t-[4px] light:border-[#dde4eb]  light:bg-gradient-to-b from-[#cbd2db] to-[#e5e9ed]  shadow-[#aeb8c0] shadow-lg dark:border-[#232645] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-gradient-to-b from-[#1a1c35] to-[#242847] rounded-2xl'>
+            <ThemeSwitch />
+            </div>
+          </div>
+
+          
           <h4 className='md:text-[25px] xxs:text-[13px]'>
             Hello
           </h4>
@@ -26,7 +33,7 @@ const HeroFirst = () => {
           <h4 className='font-bold md:text-[25px] xxs:text-[10px]'>
             I like building web apps
           </h4>
-          <span className='mt-[15px] md:text-[20px] xxs:text-[13px] rounded-lg xxs:px-5 md:px-3 py-5 bg-gradient-to-b from-[#e4ecf5] to-transparent shadow-[#aeb8c0] shadow-2xl dark:border-t-[4px] dark:border-[#202445] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'>
+          <span className='mt-[15px] md:text-[20px] xxs:text-[13px] rounded-lg xxs:px-5 md:px-3 py-5 border-t-[4px] light:border-[#dde4eb]  light:bg-gradient-to-b from-[#cbd2db] to-[#e5e9ed]  shadow-[#aeb8c0] shadow-2xl dark:border-[#232645] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-gradient-to-b from-[#1a1c35] to-[#1e213d]'>
             I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications.
           </span>
 
@@ -67,8 +74,6 @@ const HeroFirst = () => {
           </div>
           
           </div>
-          
-          <ThemeSwitch />
         </div>
 
       <div className='max-w-[350px] xxs:invisible xl:visible xl:mt-20'>

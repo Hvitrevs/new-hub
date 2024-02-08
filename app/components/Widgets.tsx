@@ -11,7 +11,7 @@ const Widgets = (props: Props) => {
     <div>
         <motion.div
           
-          className='Welcome-text  mt-[15px] rounded-sm bg-gradient-to-b from-[#dee7f1] to-transparent border-[1px] border-[#9ea9b3] dark:border-t-[4px] dark:border-[#23274b] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'
+          className='Welcome-text  mt-[15px] rounded-sm light:bg-gradient-to-b from-[#dee7f1] to-transparent border-[1px] border-[#9ea9b3] dark:border-t-[4px] dark:border-[#23274b] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'
         >
             <div 
             className="Welcome-box py-[3px] px-[8px] opacity-[0.9] "
