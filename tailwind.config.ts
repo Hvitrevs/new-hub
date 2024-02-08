@@ -21,15 +21,15 @@ const config: Config = {
     extend: {
       animation: {
         
-        'bounce': 'bounce 8s ease-in-out infinite',
+        'bounce': 'bounce 2s ease-in-out infinite',
       },
       keyframes: {
         bounce: {
           '0%, 100%': {
-            transform: 'translateX(-1%) rotateZ(-2deg) translateY(-1%)',
+            transform: 'translateY(-5%)',
           },
           '50%': {
-            transform: 'translateX(1%) rotateZ(2deg) translateY(1%)',
+            transform: 'translateY(0)',
           },
         },
       },
