@@ -7,13 +7,10 @@
   --background: #c2d2e5;
   --foreground: #292e52;
 
-  --border-gradient-colors: linear-gradient(to bottom left, red, orange, yellow, green, blue, indigo, violet);
+  --gradient-background:linear-gradient(to bottom, #1c1e38, #23264a);
 }
-
-.border-gradient-rainbow {
-  border-style: solid;
-  border-width: 3px;
-  border-image: var(--border-gradient-colors) 1;
+.backg-colors {
+  background-image: var(--gradient-background) 1;
 }
 
 [data-theme='dark'] {
