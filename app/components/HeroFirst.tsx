@@ -30,7 +30,8 @@ const HeroFirst = () => {
             I like building web apps
           </h4>
           <span className='mt-[15px] md:text-[20px] xxs:text-[13px] rounded-lg xxs:px-3 md:px-3 py-5 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'>
-            I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications.
+            I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications. 
+            Thank you for checking out my work!💕
           </span>
 
           <div className='md:h-6 md:mt-2 mb-7 flex md:gap-5 justify-start text-start  xs:gap-[3px] xs:h-4  xs:mt-2 xxs:mt-2 xxs:h-4 xxs:gap-[2px] '>
