@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className='w-full xl:h-[60px] md:py-8 xxs:h-[35px] fixed top-0  z-50 lg:px-[1px] sm:px-[180px] xxs:px-[30px] bg-[#d2d8e0] dark:bg-[#1d213d] fixed '>
 
-      <div className='flex xl:ml-[270px] md:ml-20 xxs:p-[2px] xxs:ml-[-2px] bg-[#d2d8e0] dark:bg-[#1d213d] border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#222649] shadow-[#a9b6c0] shadow-inner shadow-2xl dark:shadow-[#0f1224] dark:text-[#5e6393] rounded-2xl justify-between z-40 items-center gap-3 fixed top-2'>
+      <div className='flex xl:ml-[300px] xxs:p-[2px] xxs:ml-[-3px] bg-[#d2d8e0] dark:bg-[#1d213d] border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#222649] shadow-[#a9b6c0] shadow-inner shadow-2xl dark:shadow-[#0f1224] dark:text-[#5e6393] rounded-2xl justify-between z-40 items-center gap-3 fixed top-2'>
 
-      <div className='flex flex-row gap-3 items-center border-r-[2px] border-[#bec6cd] dark:border-[#2c3158]'>
+      <div className='flex flex-row gap-2 items-center border-r-[2px] border-[#bec6cd] dark:border-[#2c3158]'>
 
         {/* logo */}
         <h1 className='flex flex-row flex-nowrap px-3 xxs:text-[10px] md:text-[15px] font-bold dark:text-[#aec1d4]'>
