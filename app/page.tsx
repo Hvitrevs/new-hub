@@ -10,7 +10,6 @@ export default function Home() {
     <main className='w-full h-full relative '>
       <div className="flex xxs:px-[1rem] md:px-[4rem] xxs:py-8 md:py-[7rem] gap-20 flex-nowrap ">
         <HeroFirst />
-        {/* <HeroFirst /> */}
       </div>
     </main>
   );

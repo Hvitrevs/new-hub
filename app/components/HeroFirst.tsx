@@ -29,7 +29,7 @@ const HeroFirst = () => {
           <h4 className='font-bold md:text-[25px] xxs:text-[12px]'>
             I like building web apps
           </h4>
-          <span className='mt-[15px] md:text-[20px] xxs:text-[13px] rounded-lg xxs:px-3 md:px-3 py-5 border-t-[4px] light:border-[#dde4eb]  light:bg-gradient-to-b from-[#cbd2db] to-[#e5e9ed]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-gradient-to-b from-[#1d1e39] to-[#202446]'>
+          <span className='mt-[15px] md:text-[20px] xxs:text-[13px] rounded-lg xxs:px-3 md:px-3 py-5 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'>
             I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications.
           </span>
 
@@ -73,7 +73,7 @@ const HeroFirst = () => {
           </div>
         </div>
 
-      <div className='max-w-[350px] xxs:invisible xl:visible xl:mt-20'>
+      <div className='max-w-[350px] xxs:invisible xl:visible xl:mt-20 xl:mr-2'>
       <Image
           className="filter-grayscale opacity-[50%] dark:opacity-[90%]  animate-bounce"
           src="/abstract1.png"
