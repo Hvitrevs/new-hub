@@ -11,10 +11,10 @@ const Widgets = (props: Props) => {
     <div>
         <motion.div
           
-          className='Welcome-text  mt-[15px] rounded-sm light:bg-gradient-to-b from-[#dee7f1] to-transparent border-[1px] shadow-md border-t-[4px] border-[#dde5ea] dark:border-t-[4px] dark:border-[#23274b] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'
+          className='Welcome-text  mt-[15px] rounded-sm light:bg-gradient-to-b from-[#dee7f1] to-transparent border-[1px] shadow-md border-t-[4px] border-[#dde5ea] dark:border-t-[4px] dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:text-[#6b6e8a] dark:bg-none'
         >
             <div 
-            className="Welcome-box py-[3px] px-[8px] opacity-[0.9] border-[#8c989f] border-[1px] dark:border-[#363958]"
+            className="Welcome-box py-[3px] px-[8px] opacity-[0.9] border-[#8c989f] border-[1px] dark:border-[#304874]"
             >
               <div className="md:px-[2px] xs:py-[2px] sm:py-[2px] md:h-4 md:w-4 xs:h-4 xs:w-3 xxs:w-2 xs:mr-[1px]">
                 {props.icon}

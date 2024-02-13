@@ -31,7 +31,7 @@ const HeroFirst = () => {
           <h4 className='font-bold md:text-[25px] xxs:text-[12px]'>
             I like building web apps
           </h4>
-          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:bg-none'>
+          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
 
             <div className='flex gap-2 mb-2 flex md:gap-5 justify-start text-start'>
               <Image
@@ -87,7 +87,7 @@ const HeroFirst = () => {
           <div className='flex items-center'>
             <div className='py-3 flex flex-nowrap gap-4 px-3 p-2 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#222649] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:shadow-[#171a31] dark:text-[#5e6393] rounded-2xl '>
               <Link 
-              className='hover:text-pink-500  pr-5 border-r-[4px] border-r-[#d2e1ed] dark:border-r-[#222649] dark:border-b-[#131528]'  href='https://github.com/Hvitrevs'>
+              className='hover:text-pink-500  pr-5 border-r-[4px] border-r-[#bacad6] dark:border-r-[#2c3054] dark:border-b-[#131528]'  href='https://github.com/Hvitrevs'>
                 <FaGithub />
               </Link>
 
