@@ -33,9 +33,9 @@ const HeroFirst = () => {
           </h4>
           <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:bg-none'>
 
-            <div className='flex md:h-9 gap-2 mb-2 flex md:gap-5 justify-start text-start'>
+            <div className='flex gap-2 mb-2 flex md:gap-5 justify-start text-start'>
               <Image
-                className=" border-[2px] border-[#d7effd] dark:border-[#34396c] rounded-2xl p-[1px]"
+                className="md:h-9 md:w-9 border-[2px] border-[#d7effd] dark:border-[#34396c] rounded-2xl p-[1px]"
                 src="/avatar.jpg"
                 alt="icon"
                 height={45}

@@ -10,7 +10,7 @@ interface LikerState {
 
 class Liker extends Component<LikerProps, LikerState> {
   state: LikerState = {
-    count: 0,
+    count: 42,
     clicked: false, 
   };
 
