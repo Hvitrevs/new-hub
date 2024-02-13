@@ -41,19 +41,19 @@ const HeroFirst = () => {
                 height={35}
                 width={35}
               />
-              <p className='text-[15px] tracking-[.08em] mt-2 md:ml-[-15px]'>
+              <p className='text-[15px] tracking-[.08em] mt-2 md:ml-[-15px] text-[#525574] dark:text-[#758598] font-semibold'>
                 Adelina Margulis
               </p>
             </div>
 
-            <p className=' md:text-[18px] xxs:text-[13px]  dark:text-[#5e6393]'>
+            <p className=' md:text-[18px] xxs:text-[13px] tracking-[.08em] dark:text-[#606698]'>
             I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications. 
             Thank you for checking out my work!💕
             </p>
 
 
             <div className='flex md:h-9 gap-2 flex md:gap-5 justify-between '>
-              <p className='xxs:text-[9px] md:text-[12px] tracking-[.05em] mt-4'>
+              <p className='xxs:text-[9px] md:text-[12px] tracking-[.05em] mt-4 text-[#6f7399] font-semibold dark:text-[#75889d]'>
                 Last seen: Yesterday
               </p>
               <Liker />
