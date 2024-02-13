@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 'use client'
 
 
@@ -10,6 +10,8 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Widgets from './Widgets';
 import { SparklesIcon, TagIcon } from '@heroicons/react/24/solid';
+import { HeartIcon } from '@heroicons/react/24/outline';
+import Liker from './Liker';
 
 const HeroFirst = () => {
   return (
@@ -29,10 +31,38 @@ const HeroFirst = () => {
           <h4 className='font-bold md:text-[25px] xxs:text-[12px]'>
             I like building web apps
           </h4>
-          <span className='mt-[15px] md:text-[20px] xxs:text-[13px] rounded-lg xxs:px-3 md:px-3 py-5 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:text-[#5e6393] dark:bg-none'>
+          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#222546] dark:shadow-[#171a31] dark:bg-none'>
+
+            <div className='flex md:h-9 gap-2 mb-2 flex md:gap-5 justify-start text-start'>
+              <Image
+                className=" border-[2px] border-[#d7effd] dark:border-[#34396c] rounded-2xl p-[1px]"
+                src="/avatar.jpg"
+                alt="icon"
+                height={45}
+                width={45}
+              />
+              <p className='text-[15px] tracking-[.08em] mt-2 md:ml-[-15px]'>
+                Adelina Margulis
+              </p>
+            </div>
+
+            <p className=' md:text-[18px] xxs:text-[13px]  dark:text-[#5e6393]'>
             I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications. 
             Thank you for checking out my work!💕
-          </span>
+            </p>
+
+
+            <div className='flex md:h-9 gap-2 flex md:gap-5 justify-between '>
+              <p className='xxs:text-[9px] md:text-[12px] tracking-[.05em] mt-4'>
+                Last seen: Yesterday
+              </p>
+              <Liker />
+              
+
+            </div>
+
+
+          </div>
 
           <div className='md:h-6 md:mt-2 mb-7 flex md:gap-5 justify-start text-start  xs:gap-[3px] xs:h-4  xs:mt-2 xxs:mt-2 xxs:h-4 xxs:gap-[2px] '>
             <Widgets 
