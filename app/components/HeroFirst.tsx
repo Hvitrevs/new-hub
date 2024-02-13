@@ -38,8 +38,8 @@ const HeroFirst = () => {
                 className="md:h-9 md:w-9 border-[2px] border-[#d7effd] dark:border-[#34396c] rounded-2xl p-[1px]"
                 src="/avatar.jpg"
                 alt="icon"
-                height={45}
-                width={45}
+                height={35}
+                width={35}
               />
               <p className='text-[15px] tracking-[.08em] mt-2 md:ml-[-15px]'>
                 Adelina Margulis
