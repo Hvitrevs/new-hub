@@ -21,14 +21,14 @@ const HeroFirst = () => {
 
 
           
-          <h4 className='md:text-[18px] xxs:text-[9px]'>
+          <h4 className='md:text-[18px] xxs:text-[9px] xxs:font-bold md:font-normal'>
             Hello!
           </h4>
-          <h2 className='flex flex-row flex-nowrap md:text-[45px] xxs:text-[19px] font-bold'>
+          <h2 className='flex flex-row flex-nowrap md:text-[45px] xxs:text-[27px] font-bold'>
             <span>I'm Hvit</span>
             <span className='text-[#ff7944]'> revs 🦊</span>
           </h2>
-          <h4 className='font-bold md:text-[25px] xxs:text-[12px]'>
+          <h4 className='font-bold md:text-[25px] xxs:text-[15px] xxs:tracking-[.09em] sm:tracking-[.1em]'>
             I like building web apps
           </h4>
           <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
@@ -41,7 +41,7 @@ const HeroFirst = () => {
                 height={35}
                 width={35}
               />
-              <p className='text-[15px] tracking-[.08em] mt-2 md:ml-[-15px] text-[#525574] dark:text-[#758598] font-semibold'>
+              <p className='xxs:text-[13px] text-[15px] tracking-[.08em] mt-2 md:ml-[-15px] xxs:text-[#7e81a4] md:text-[#525574] dark:text-[#758598] font-semibold'>
                 Adelina Margulis
               </p>
             </div>
@@ -85,15 +85,14 @@ const HeroFirst = () => {
 
             </div>
           <div className='flex items-center'>
-            <div className='py-3 flex flex-nowrap gap-4 px-3 p-2 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#222649] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:shadow-[#171a31] dark:text-[#5e6393] rounded-2xl '>
+            <div className='md:py-3 xxs:py-1 flex flex-nowrap gap-4 md:px-3 p-3 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#222649] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:shadow-[#171a31] dark:text-[#5e6393] rounded-2xl '>
               <Link 
-              className='hover:text-pink-500  pr-5 border-r-[4px] border-r-[#bacad6] dark:border-r-[#2c3054] dark:border-b-[#131528]'  href='https://github.com/Hvitrevs'>
+              className='hover:text-pink-500 xxs:text-[18px] md:text-[25px]  pr-5 border-r-[4px] border-r-[#bacad6] dark:border-r-[#2c3054] dark:border-b-[#131528]'  href='https://github.com/Hvitrevs'>
                 <FaGithub />
               </Link>
 
-              <div className='gap-4 px-1 text-[25px] text-[#ff7944] hover:text-green-500 '>
+              <div className='gap-4 px-1 xxs:text-[18px] md:text-[25px] text-[#ff7944] hover:text-green-500 '>
                 <Link 
-                className='' 
                 href="https://codepen.io/Hvitrevs">
                   <FaCodepen />
                 </Link>
