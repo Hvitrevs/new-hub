@@ -85,7 +85,7 @@ const HeroFirst = () => {
 
             </div>
           <div className='flex items-center'>
-            <div className='md:py-3 xxs:py-1 flex flex-nowrap gap-4 md:px-3 p-3 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#222649] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:shadow-[#171a31] dark:text-[#5e6393] rounded-2xl '>
+            <div className='md:py-3 xxs:py-1 flex flex-nowrap gap-4 md:px-3 p-3 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#2c2f4a] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:shadow-[#171a31] dark:text-[#5e6393] rounded-2xl '>
               <Link 
               className='hover:text-pink-500 xxs:text-[18px] md:text-[25px]  pr-5 border-r-[4px] border-r-[#bacad6] dark:border-r-[#2c3054] dark:border-b-[#131528]'  href='https://github.com/Hvitrevs'>
                 <FaGithub />
