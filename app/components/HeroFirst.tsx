@@ -17,7 +17,7 @@ const HeroFirst = () => {
   return (
     <>
       <div className='flex items-center'>
-        <div className='xxs:mt-8 md:mt-[2px] xxs:pr-4 xxs:pl-2 xl:pl-40 md:pb-10 flex flex-col gap-2 z-[10] max-w-[850px]'>
+        <div className='xxs:mt-8 md:mt-[2px] xxs:pr-4 xxs:pl-2 xl:pl-40 md:pb-1 flex flex-col gap-2 z-[10] max-w-[850px]'>
 
 
           
@@ -47,7 +47,7 @@ const HeroFirst = () => {
             </div>
 
             <p className=' md:text-[18px] xxs:text-[13px] tracking-[.08em] dark:text-[#606698]'>
-            I am fascinated with AI and Machine Learning. Currently I am working on designing and creating different user-friendly websites and applications. 
+            I am fascinated with integrating AI and Machine Learning into web development. Currently I am working on designing and creating different user-friendly websites and applications that involves modern technologies and best coding practises. 
             Thank you for checking out my work!💕
             </p>
 

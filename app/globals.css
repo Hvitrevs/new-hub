@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   /* Your default theme */
   --background: #c2d2e5;
@@ -9,6 +13,11 @@
 
   --gradient-background:linear-gradient(to bottom, #1c1e38, #23264a);
 }
+
+body {
+  overflow-y: scroll;
+}
+
 .backg-colors {
   background-image: var(--gradient-background) 1;
 }
