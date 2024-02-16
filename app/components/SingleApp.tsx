@@ -2,10 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
+import {  PiFlyingSaucer } from 'react-icons/pi'
+import Widgets from './Widgets'
 
 const SingleApp = () => {
   return (
-    <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none hover:shadow-[#fa5ef2] hover:shadow-xl backdrop-blur-md z-50'>
+    <div className='mt-[15px] mb-6 rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none backdrop-blur-md z-50'>
       <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
               <Image
                 className="w-full h-auto object-cover rounded-xl"
@@ -14,23 +16,28 @@ const SingleApp = () => {
                 height={150}
                 width={150}
               />
-              <div className="left-0 right-0 mt-[-10rem] bg-[#000000]/50 px-4 w-full ">
+              <div className="left-0 right-0 mt-[-9rem] bg-[#000000]/50 px-4 w-full backdrop-blur-sm z-50">
                 <h1 className='mt-2 text-[15px] font-bold text-[#dfe1ed]'>
                   Placeholder Title
                 </h1>
-                <p className='mt-2 xxs:text-[13px] text-[15px] tracking-[.08em] xxs:text-[#9599c2] md:text-[#a5a7ba] dark:text-[#9fadbd] font-semibold'>
+                <p className='mt-2 xxs:text-[13px] text-[15px] md:text-[#c7c9da] dark:text-[#c6d0db]'>
                   placeholder description In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.
                 </p>
 
               </div>
-              <div className='mt-4 hover:text-pink-500'>
-                <Link 
-                className='xxs:text-[18px] md:text-[25px] pr-5'  
-                href='https://github.com/Hvitrevs'>
-                  <FaGithub />
-                </Link>
+              <div className='flex flex-wrap'>
+                <div className='w-full flex flex-wrap'>
+                  <Widgets />
+                </div>
+                <div className='w-full flex flex-wrap mt-4 mb-1 justify-start gap-4'>
+                  <Link className='xxs:text-[18px] md:text-[25px] flex hover:text-cyan-500' href='https://github.com/Hvitrevs'>
+                    <FaGithub />
+                  </Link>
+                  <Link className='xxs:text-[18px] md:text-[25px] text-[#ff7944] flex hover:text-green-500' href='https://github.com/Hvitrevs'>
+                    <PiFlyingSaucer />
+                  </Link>
+                </div>
               </div>
-
 
             </div>
     </div>

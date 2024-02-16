@@ -20,7 +20,7 @@ export const Projects = () => {
           </h2>
 
           <div className='mt-[15px] grid grid-col-3 grid-row-2 rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
-            {<SingleApp /> }
+            {<SingleApp />}
           </div>
 
         </div>
