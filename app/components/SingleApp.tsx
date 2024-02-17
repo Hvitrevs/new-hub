@@ -15,14 +15,14 @@ const SingleApp = () => {
                 className="w-full h-auto object-cover rounded-xl"
                 src="/avatar.jpg"
                 alt="icon"
-                height={150}
-                width={150}
+                height={250}
+                width={250}
               />
-              <div className="left-0 right-0 mt-[-9rem] bg-[#000000]/50 px-4 w-full backdrop-blur-sm z-50">
+              <div className="left-0 right-0 mt-[-9rem] bg-[#0e122c]/60 px-4 w-full h-auto backdrop-blur-sm z-50">
                 <h1 className='mt-2 text-[15px] font-bold text-[#dfe1ed]'>
                   Placeholder Title
                 </h1>
-                <p className='mt-1 xxs:text-[11px] md:text-[12px] 2xl:text-[15px] md:text-[#c7c9da] dark:text-[#c6d0db]'>
+                <p className='mt-1 xxs:text-[11px] md:text-[12px] 2xl:text-[13px] md:text-[#c7c9da] dark:text-[#c6d0db] font-light'>
                   placeholder description In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.
                 </p>
 
