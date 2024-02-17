@@ -17,7 +17,7 @@ const HeroFirst = () => {
   return (
     <>
       <div className='flex items-center'>
-        <div className='xxs:mt-8 md:mt-[2px] xxs:pr-4 xxs:pl-2 xl:pl-40 md:pb-1 flex flex-col gap-2 z-[10] max-w-[850px]'>
+        <div className='xxs:mt-8 md:mt-[1rem] xxs:pr-4 xxs:pl-2 md:pl-20 2xl:pl-40 xl:pl-20  md:pb-1 flex flex-col gap-2 z-[10] max-w-[1050px]'>
 
 
           
@@ -31,7 +31,7 @@ const HeroFirst = () => {
           <h4 className='font-bold md:text-[25px] xxs:text-[15px] xxs:tracking-[.09em] sm:tracking-[.1em]'>
             I like building web apps
           </h4>
-          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
+          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-7 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
 
             <div className='flex gap-2 mb-2 flex md:gap-5 justify-start text-start'>
               <Image
@@ -46,7 +46,7 @@ const HeroFirst = () => {
               </p>
             </div>
 
-            <p className=' md:text-[18px] xxs:text-[13px] tracking-[.08em] dark:text-[#606698]'>
+            <p className=' md:text-[18px] xxs:text-[13px] tracking-[.08em] dark:text-[#606698] xl:max-w-[600px]'>
             I am fascinated with integrating AI and Machine Learning into web development. Currently I am working on designing and creating different user-friendly websites and applications that involves modern technologies and best coding practises. 
             Thank you for checking out my work!💕
             </p>
@@ -101,17 +101,18 @@ const HeroFirst = () => {
           </div>
           
           </div>
-        </div>
+        
 
-      <div className='max-w-[350px] xxs:invisible xl:visible xl:mt-20 xl:mr-2'>
-      <Image
-          className="filter-grayscale opacity-[50%] dark:opacity-[90%]  animate-bounce"
-          src="/abstract1.png"
-          alt="image"
-          height={350}
-          width={350}
-        />
-      </div>
+        <div className='xl:max-w-[250px] 2xl:max-w-[350px] xxs:invisible xl:visible xl:mt-40 2xl:mt-20 xl:ml-2 xl:mr-2'>
+        <Image
+            className="filter-grayscale opacity-[50%] dark:opacity-[90%]  animate-bounce"
+            src="/abstract1.png"
+            alt="image"
+            height={350}
+            width={350}
+          />
+        </div>
+        </div>
     </>
   );
 }

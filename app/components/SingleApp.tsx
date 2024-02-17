@@ -5,10 +5,12 @@ import { FaGithub } from 'react-icons/fa'
 import {  PiFlyingSaucer } from 'react-icons/pi'
 import Widgets from './Widgets'
 
+
 const SingleApp = () => {
   return (
-    <div className='mt-[15px] mb-6 rounded-lg xxs:px-3 md:px-5 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none backdrop-blur-md z-50'>
-      <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
+
+    <div className=' mt-[15px] mb-6 rounded-lg xxs:px-3 md:px-6 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none backdrop-blur-md z-50'>
+      <div className='flex justify-start text-start flex-wrap max-w-[250px]'>
               <Image
                 className="w-full h-auto object-cover rounded-xl"
                 src="/avatar.jpg"
@@ -20,7 +22,7 @@ const SingleApp = () => {
                 <h1 className='mt-2 text-[15px] font-bold text-[#dfe1ed]'>
                   Placeholder Title
                 </h1>
-                <p className='mt-2 xxs:text-[13px] text-[15px] md:text-[#c7c9da] dark:text-[#c6d0db]'>
+                <p className='mt-1 xxs:text-[11px] md:text-[12px] 2xl:text-[15px] md:text-[#c7c9da] dark:text-[#c6d0db]'>
                   placeholder description In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.
                 </p>
 
