@@ -9,9 +9,9 @@ import { projectDetails } from './data/Data'
 
 const SingleApp = () => {
   return (
-    <div className='flex w-full items-center gap-6'>
+    <>
       {projectDetails.map(project => (
-        <div  key={project.id}  className='flex mt-[3rem] h-full mb-10 rounded-lg xxs:px-3 md:px-6 py-9 xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
+        <div  key={project.id}  className='flex mt-[1rem] h-full mb-10 rounded-lg xxs:px-3 md:px-6 py-10 xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
           <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
               <Image
                 className="w-full h-[80%] object-cover rounded-xl"
@@ -33,7 +33,7 @@ const SingleApp = () => {
                 <div className='w-full flex flex-wrap'>
                   <Widgets title='' icon=''/>
                 </div>
-                <div className='w-full flex flex-wrap mt-4 mb-2 justify-start gap-4'>
+                <div className='w-full flex flex-wrap mt-4 mb-4 justify-start gap-4'>
                   <Link className='xxs:text-[18px] md:text-[25px] flex hover:text-cyan-500' href={project.project_page}>
                     <FaGithub />
                   </Link>
@@ -47,7 +47,7 @@ const SingleApp = () => {
    
       </div>
      ))}
-    </div>
+    </>
     
       
     
