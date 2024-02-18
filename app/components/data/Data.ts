@@ -1,4 +1,4 @@
-
+import { SparklesIcon, TagIcon } from '@heroicons/react/24/solid';
 
 export const projectDetails = [
   {
@@ -9,6 +9,16 @@ export const projectDetails = [
     project_img: '/desktop2.png', 
     project_url: 'https://magical-concha-6ccb16.netlify.app',
     project_page:'https://github.com/Hvitrevs/Weather-app-',
+    widgetInfo: [
+      {
+        id: 1,
+        title: 'Tailwind',
+      },
+      {
+        id: 2,
+        title: 'API',
+      },
+    ],
   },
   {
     id: 2,
@@ -18,6 +28,20 @@ export const projectDetails = [
     project_img: '/desktop.png', 
     project_url: 'https://incandescent-vacherin-43b64e.netlify.app',
     project_page:'https://github.com/Hvitrevs/Sales-dashboard',
+    widgetInfo: [
+      {
+        id: 1,
+        title: 'React',
+      },
+      {
+        id: 2,
+        title: 'SaSS',
+      },
+      {
+        id: 3,
+        title: 'TS',
+      },
+    ],
   },
   {
   id: 3,
@@ -27,5 +51,11 @@ export const projectDetails = [
   project_img: '/shiny-mermaid.png',
   project_url: 'https://shiny-mermaid-881c44.netlify.app',
   project_page:'https://github.com/Hvitrevs/expert-winner',
+  widgetInfo: [
+    {
+      id: 1,
+      title: 'JavaScript',
+    },
+  ],
 },
 ];

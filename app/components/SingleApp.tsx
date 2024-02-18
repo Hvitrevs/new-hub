@@ -5,13 +5,14 @@ import { FaGithub } from 'react-icons/fa'
 import {  PiFlyingSaucer } from 'react-icons/pi'
 import Widgets from './Widgets'
 import { projectDetails } from './data/Data'
+import { TagIcon } from '@heroicons/react/24/solid'
 
 
 const SingleApp = () => {
   return (
     <>
       {projectDetails.map(project => (
-        <div  key={project.id}  className='flex mt-[1rem] h-full mb-10 rounded-lg xxs:px-3 md:px-6 py-10 xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
+        <div  key={project.id}  className='flex h-full mb-[3rem] rounded-lg xxs:px-3 md:px-3 py-4 pb-[5rem] xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
           <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
               <Image
                 className="w-full h-[80%] object-cover rounded-xl"
@@ -29,11 +30,7 @@ const SingleApp = () => {
                 </p>
 
               </div>
-              <div className='flex flex-wrap'>
-                <div className='w-full flex flex-wrap'>
-                  <Widgets title='' icon=''/>
-                </div>
-                <div className='w-full flex flex-wrap mt-4 mb-4 justify-start gap-4'>
+              <div className='w-full xxs:mt-6 flex flex-wrap mt-2 xxs:mb-1 justify-start gap-4'>
                   <Link className='xxs:text-[18px] md:text-[25px] flex hover:text-cyan-500' href={project.project_page}>
                     <FaGithub />
                   </Link>
@@ -41,6 +38,14 @@ const SingleApp = () => {
                     <PiFlyingSaucer />
                   </Link>
                 </div>
+              <div className='flex flex-wrap gap-1'>
+                {project.widgetInfo?.map((widgetInf) => (
+                  <div className='md:h-6 md:mt-2 mb-3 flex xs:gap-[3px] xs:h-4  xs:mt-2 xxs:mt-2 xxs:h-4 xxs:gap-[2px] flex mt-4 mb-1 justify-start gap-4' key={widgetInf.id} >
+                    <Widgets  title={widgetInf.title} icon={<TagIcon />}/>
+                  </div>
+                ))}
+                
+
               </div>
 
             </div>

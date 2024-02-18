@@ -20,7 +20,7 @@ export const Projects = () => {
             <span className='text-[#ff7944]'>I've built 🛸</span>
           </h2>
 
-            <div   className='mt-[15px] mb-2 gap-6 grid xl:grid-cols-3 md:grid-cols-2 xxs:grid-cols-1 rounded-lg xxs:px-3 md:px-5 py-10 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
+            <div   className='mt-[2rem] gap-6 grid xl:grid-cols-3 md:grid-cols-2 xxs:grid-cols-1 rounded-lg xxs:px-3 md:px-6 py-10 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
               {<SingleApp   />}
             </div>
         
