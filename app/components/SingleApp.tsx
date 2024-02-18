@@ -14,13 +14,14 @@ const SingleApp = () => {
       {projectDetails.map(project => (
         <div  key={project.id}  className='flex h-full mb-[3rem] rounded-lg xxs:px-3 md:px-3 py-4 pb-[5rem] xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
           <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
-              <Image
-                className="w-full h-[80%] object-cover rounded-xl"
+              <Link href={project.project_url} className="h-[80%]">
+              <Image className="w-full h-full object-cover rounded-xl"
                 src={project.project_img}
                 alt="img"
                 height={450}
                 width={450}
               />
+              </Link>
               <div className="left-0 right-0 mt-[-8rem] bg-[#0e122c]/60 px-4 w-full h-auto backdrop-blur-sm z-50">
                 <h1 className='mt-2 xxs:text-[10px] xxs:mt-3 md:text-[15px] font-bold text-[#dfe1ed]'>
                   {project.project_name}
