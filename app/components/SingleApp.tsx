@@ -22,15 +22,17 @@ const SingleApp = () => {
                 width={450}
               />
               </Link>
-              <div className="left-0 right-0 mt-[-8rem] bg-[#0e122c]/60 px-4 w-full h-auto backdrop-blur-sm z-50">
+              <div className="left-0 right-0 mt-[-8rem] bg-[#0e122c]/40 px-4 w-full h-auto backdrop-blur-sm z-50">
+              <Link href={project.project_url}>
                 <h1 className='mt-2 xxs:text-[10px] xxs:mt-3 md:text-[15px] font-bold text-[#dfe1ed]'>
                   {project.project_name}
                 </h1>
                 <p className='md:mt-1 xs:mt-3 xs:text-[10px] xxs:text-[9px] md:text-[11px] 2xl:text-[12px] md:text-[#c7c9da] dark:text-[#c6d0db] font-light'>
                   {project.project_desc}
                 </p>
-
+                </Link>
               </div>
+              
               <div className='w-full xxs:mt-6 flex flex-wrap mt-2 xxs:mb-1 justify-start gap-4'>
                   <Link className='xxs:text-[18px] md:text-[25px] flex hover:text-cyan-500' href={project.project_page}>
                     <FaGithub />
