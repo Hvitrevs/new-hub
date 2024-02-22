@@ -11,15 +11,22 @@
   --background: #c2d2e5;
   --foreground: #292e52;
 
-  --gradient-background:linear-gradient(to bottom, #1c1e38, #23264a);
+  --gradient:linear-gradient(to bottom, #3e49e4, #c42ba3, #1dca17, #dabc29);
 }
 
 body {
   overflow-y: scroll;
 }
 
+.gradient-border {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-image: linear-gradient(to bottom, var(--border-color-from, #edb621), var(--border-color-to, #fc4524)) 3;
+}
+
 .backg-colors {
-  background-image: var(--gradient-background) 1;
+  border: var(--gradient) 1;
 }
 
 [data-theme='dark'] {

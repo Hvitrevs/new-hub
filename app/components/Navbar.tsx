@@ -7,9 +7,9 @@ import ThemeSwitch from './ThemeSwitch'
 const Navbar = () => {
 
   return (
-    <div className='w-full xl:h-[60px] md:py-8 xxs:h-[55px] fixed top-0  z-50 lg:px-[1px] sm:px-[180px] xxs:px-[30px] bg-[#d2d8e0] dark:bg-[#22253c] fixed '>
+    <div className='w-full flex justify-center items-center xl:h-[60px] md:py-8 xxs:h-[55px] fixed top-0  z-50 lg:px-[1px] sm:px-[180px] xxs:px-[30px] bg-[#d2d8e0] dark:bg-[#22253c] fixed '>
 
-      <div className='flex 2xl:xl:ml-[750px] ml-[550px] lg:ml-[380px] md:ml-[120px] sm:ml-[250px] xxs:p-[2px] xxs:ml-[5px] bg-[#d2d8e0] dark:bg-[#22253c] border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#2c2f4a] shadow-[#a9b6c0] shadow-inner shadow-2xl dark:shadow-[#0f1224] dark:text-[#5e6393] rounded-2xl justify-between z-50 items-center gap-3 fixed top-2'>
+      <div className='flex xxs:p-[2px] xxs:ml-[5px] bg-[#d2d8e0] dark:bg-[#22253c] border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#2c2f4a] shadow-[#a9b6c0] shadow-inner shadow-2xl dark:shadow-[#0f1224] dark:text-[#5e6393] rounded-2xl justify-between z-50 items-center gap-3 fixed top-2'>
 
       <div className='flex flex-row gap-2 items-center border-r-[2px] border-[#bec6cd] dark:border-[#2c2f4a]'>
 

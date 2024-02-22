@@ -1,10 +1,11 @@
-import { SparklesIcon, TagIcon } from '@heroicons/react/24/solid';
+
 
 export const projectDetails = [
   {
     id: 1,
+    color: 'red',
     project_name: 'Weather Desktop App',
-    project_desc: 'This is a weather API utilizer that transforms API data from open-metio.com into readable responsive webpage.',
+    project_desc: 'This app leverages weather APIs to seamlessly convert data sourced from open-metio.com into a user-friendly web interface.',
     tech_stack: 'Vite',
     project_img: '/desktop2.png', 
     project_url: 'https://magical-concha-6ccb16.netlify.app',

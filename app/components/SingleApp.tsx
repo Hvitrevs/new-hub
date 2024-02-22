@@ -12,7 +12,7 @@ const SingleApp = () => {
   return (
     <>
       {projectDetails.map(project => (
-        <div  key={project.id}  className='flex h-full mb-[3rem] rounded-lg xxs:px-3 md:px-3 py-4 pb-[5rem] xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
+        <div  key={project.id}  className='flex h-full mb-[3rem] rounded-lg xxs:px-3 md:px-3 py-4 pb-[5rem] xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb] bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none '>
           <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
               <Link href={project.project_url} className="h-[80%]">
               <Image className="w-full h-full object-cover rounded-xl"
@@ -43,7 +43,7 @@ const SingleApp = () => {
                 </div>
               <div className='flex flex-wrap gap-1'>
                 {project.widgetInfo?.map((widgetInf) => (
-                  <div className='md:h-6 md:mt-2 mb-3 flex xs:gap-[3px] xs:h-4  xs:mt-2 xxs:mt-2 xxs:h-4 xxs:gap-[2px] flex mt-4 mb-1 justify-start gap-4' key={widgetInf.id} >
+                  <div className='md:h-6 md:mt-2 mb-3 flex xs:gap-[3px] xs:h-4  xs:mt-2 xxs:mt-2 xxs:h-4 xxs:gap-[2px] flex mt-4 mb-1 justify-start gap-4 ' key={widgetInf.id} >
                     <Widgets  title={widgetInf.title} icon={<TagIcon />}/>
                   </div>
                 ))}
