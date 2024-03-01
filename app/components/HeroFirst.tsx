@@ -17,7 +17,7 @@ const HeroFirst = () => {
   return (
     <>
       <div className='flex items-center'>
-        <div className='xxs:mt-8 md:mt-[1rem] xxs:pr-4 xxs:pl-2 md:pl-20 2xl:pl-8 xl:pl-20  md:pb-1 flex flex-col gap-2 z-[10] max-w-[1050px]'>
+        <div className='xxs:mt-8 md:mt-[1rem] xxs:pr-4 xxs:pl-2 md:pl-20 2xl:pl-6 xl:pl-20  md:pb-1 flex flex-col gap-2 z-[10] max-w-[1050px]'>
 
 
           
