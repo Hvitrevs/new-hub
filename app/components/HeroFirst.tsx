@@ -28,7 +28,7 @@ const HeroFirst = () => {
             <span>I'm Hvit</span>
             <span className='text-[#ff7944]'> revs 🦊</span>
           </h2>
-          <h4 className='font-semibold md:text-[25px] xxs:text-[15px] xxs:tracking-[.04em] sm:tracking-[.0.5em]'>
+          <h4 className='font-semibold md:text-[25px] xxs:text-[15px] xxs:tracking-[.04em] sm:tracking-[.05em]'>
             I like building web apps
           </h4>
           <div className='mt-[15px] rounded-lg xxs:px-3 md:px-7 py-3 border-t-[5px] border-[#fbfdff]  bg-gradient-to-b from-[#f0f4f9] to-transparent shadow-[#c8cfd4] shadow-lg dark:border-[#36384e] dark:shadow-[#242633] dark:bg-none'>
