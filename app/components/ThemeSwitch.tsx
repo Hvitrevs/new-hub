@@ -30,7 +30,7 @@ export default function ThemeSwitch() {
   }
 
   if (resolvedTheme === 'light') {
-    return <FiMoon className="cursor-pointer text-[#44b7ff]  shadow-[#69dcff] shadow-xl" onClick={() => setTheme('dark')} />
+    return <FiMoon className="cursor-pointer text-[#57d3e9]  shadow-[#9cfffc] shadow-lg" onClick={() => setTheme('dark')} />
   }
 
 }

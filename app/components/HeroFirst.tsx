@@ -31,7 +31,7 @@ const HeroFirst = () => {
           <h4 className='font-bold md:text-[25px] xxs:text-[15px] xxs:tracking-[.09em] sm:tracking-[.1em]'>
             I like building web apps
           </h4>
-          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-7 py-3 border-t-[5px] border-[#dde4eb]  bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none'>
+          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-7 py-3 border-t-[5px] border-[#fbfdff]  bg-gradient-to-b from-[#e7ebf1] to-transparent shadow-[#c8cfd4] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#1a1e37] dark:bg-none'>
 
             <div className='flex gap-2 mb-2 flex md:gap-5 justify-start text-start'>
               <Image
@@ -41,19 +41,19 @@ const HeroFirst = () => {
                 height={35}
                 width={35}
               />
-              <p className='xxs:text-[13px] text-[15px] tracking-[.08em] mt-2 md:ml-[-15px] xxs:text-[#7e81a4] md:text-[#525574] dark:text-[#758598] font-semibold'>
+              <p className='xxs:text-[13px] text-[15px] tracking-[.1em] mt-2 md:ml-[-15px] xxs:text-[#7e81a4] md:text-[#525574] dark:text-[#e3eefb] font-semibold'>
                 Adelina Margulis
               </p>
             </div>
 
-            <p className=' md:text-[18px] xxs:text-[13px] tracking-[.08em] dark:text-[#606698] xl:max-w-[600px]'>
+            <p className=' md:text-[15px] xxs:text-[13px] tracking-[.1em] font-light dark:text-[#bac8e6] xl:max-w-[550px]'>
             I am fascinated with integrating AI and Machine Learning into web development. Currently I am working on designing and creating different user-friendly websites and applications that involves modern technologies and best coding practises. 
             Thank you for checking out my work!💕
             </p>
 
 
             <div className='flex md:h-9 gap-2 flex md:gap-5 justify-between '>
-              <p className='xxs:text-[9px] md:text-[12px] tracking-[.05em] mt-4 text-[#6f7399] font-semibold dark:text-[#75889d]'>
+              <p className='xxs:text-[9px] md:text-[12px] tracking-[.05em] mt-4 text-[#6f7399] font-semibold dark:text-[#93a1af]'>
                 Last seen: Yesterday
               </p>
               <Liker />
@@ -103,7 +103,7 @@ const HeroFirst = () => {
           </div>
         
 
-        <div className='xl:max-w-[250px] 2xl:max-w-[350px] xxs:invisible xl:visible xl:mt-40 2xl:mt-20 xl:ml-2 xl:mr-2'>
+        <div className='xl:max-w-[250px] 2xl:max-w-[350px] xxs:invisible xl:visible xl:mt-40 2xl:mt-20 xl:ml-[10rem]'>
         <Image
             className="filter-grayscale opacity-[50%] dark:opacity-[90%]  animate-bounce"
             src="/abstract1.png"
