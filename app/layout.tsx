@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} overflow-y-scroll-hidden overflow-x-hidden select-none  mx-auto tracking-[.1em] bg-[#eceff2] dark:bg-[#22253c] text-[#373955] dark:text-[#cde3ff]`} >
+      <body className={`${inter.className} overflow-y-scroll-hidden overflow-x-hidden select-none  mx-auto tracking-[.1em] bg-[#f3f6f8] dark:bg-[#2d2f3e] text-[#373955] dark:text-[#cde3ff]`} >
       <Providers>
         <Navbar />
           {children}

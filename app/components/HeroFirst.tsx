@@ -21,21 +21,21 @@ const HeroFirst = () => {
 
 
           
-          <h4 className='md:text-[18px] xxs:text-[9px] xxs:font-bold md:font-normal'>
+          <h4 className='md:text-[18px] text-[#38b7e9] xxs:text-[9px] xxs:font-bold md:font-normal sm:tracking-[.05em]'>
             Hello!
           </h4>
           <h2 className='flex flex-row flex-nowrap md:text-[45px] xxs:text-[27px] font-bold'>
             <span>I'm Hvit</span>
             <span className='text-[#ff7944]'> revs 🦊</span>
           </h2>
-          <h4 className='font-bold md:text-[25px] xxs:text-[15px] xxs:tracking-[.09em] sm:tracking-[.1em]'>
+          <h4 className='font-semibold md:text-[25px] xxs:text-[15px] xxs:tracking-[.04em] sm:tracking-[.0.5em]'>
             I like building web apps
           </h4>
-          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-7 py-3 border-t-[5px] border-[#fbfdff]  bg-gradient-to-b from-[#e7ebf1] to-transparent shadow-[#c8cfd4] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#1a1e37] dark:bg-none'>
+          <div className='mt-[15px] rounded-lg xxs:px-3 md:px-7 py-3 border-t-[5px] border-[#fbfdff]  bg-gradient-to-b from-[#f0f4f9] to-transparent shadow-[#c8cfd4] shadow-lg dark:border-[#36384e] dark:shadow-[#242633] dark:bg-none'>
 
             <div className='flex gap-2 mb-2 flex md:gap-5 justify-start text-start'>
               <Image
-                className="md:h-9 md:w-9 border-[2px] border-[#d7effd] dark:border-[#34396c] rounded-2xl p-[1px]"
+                className="md:h-9 md:w-9 border-[2px] border-[#97a1b2] dark:border-[#484a60] rounded-2xl p-[1px]"
                 src="/avatar.jpg"
                 alt="icon"
                 height={35}
@@ -85,9 +85,9 @@ const HeroFirst = () => {
 
             </div>
           <div className='flex items-center'>
-            <div className='md:py-3 xxs:py-1 flex flex-nowrap gap-4 md:px-3 p-3 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]  dark:border-[#171a31] dark:border-b-[#2c2f4a] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:shadow-[#171a31] dark:text-[#5e6393] rounded-2xl '>
+            <div className='md:py-3 xxs:py-1 flex flex-nowrap gap-4 md:px-3 p-3 border-[1px] border-b-[4px] border-[#bec6cd] border-b-[#e7e8f4]   dark:border-b-[#36384e] shadow-[#aeb8c0] shadow-inner shadow-2xl dark:border-[#36384e] dark:shadow-[#242633] dark:text-[#a7aac9] rounded-2xl '>
               <Link 
-              className='hover:text-pink-500 xxs:text-[18px] md:text-[25px]  pr-5 border-r-[4px] border-r-[#bacad6] dark:border-r-[#2c3054] dark:border-b-[#131528]'  href='https://github.com/Hvitrevs'>
+              className='hover:text-pink-500 xxs:text-[18px] md:text-[25px]  pr-5 border-r-[4px] border-r-[#bacad6] dark:border-r-[#36384e] dark:border-b-[#36384e]'  href='https://github.com/Hvitrevs'>
                 <FaGithub />
               </Link>
 
@@ -105,7 +105,7 @@ const HeroFirst = () => {
 
         <div className='xl:max-w-[250px] 2xl:max-w-[350px] xxs:invisible xl:visible xl:mt-40 2xl:mt-20 xl:ml-[10rem]'>
         <Image
-            className="filter-grayscale opacity-[50%] dark:opacity-[90%]  animate-bounce"
+            className="filter-grayscale opacity-[90%] dark:opacity-[90%]  animate-bounce"
             src="/abstract1.png"
             alt="image"
             height={350}

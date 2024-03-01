@@ -12,7 +12,7 @@ const SingleApp = () => {
   return (
     <>
       {projectDetails.map(project => (
-        <div  key={project.id}  className='flex h-full mb-[3rem] rounded-lg xxs:px-3 md:px-3 py-4 pb-[5rem] xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#dde4eb] bg-gradient-to-b from-[#cbd2db] to-[#d6dce2]  shadow-[#aeb8c0] shadow-lg dark:border-[#2c2f4a] dark:shadow-[#171a31] dark:bg-none '>
+        <div  key={project.id}  className='flex h-full mb-[3rem] rounded-lg xxs:px-3 md:px-8 py-6 pb-[6rem] xl:min-w-[300px] md:min-w-[250px] border-t-[5px] border-[#f9fdff]  bg-gradient-to-b from-[#f0f4f9] to-transparent shadow-[#b9c3ca] shadow-lg shadow-inner dark:border-[#383b54] dark:shadow-[#242633] dark:bg-none '>
           <div className='flex justify-start text-start flex-wrap max-w-[350px]'>
               <Link href={project.project_url} className="h-[80%]">
               <Image className="w-full h-full object-cover rounded-xl"
