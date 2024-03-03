@@ -42,7 +42,7 @@ const HeroFirst = () => {
                 width={35}
               />
               <p className='xxs:text-[13px] text-[15px] tracking-[.1em] mt-2 md:ml-[-15px] xxs:text-[#7e81a4] md:text-[#525574] dark:text-[#e3eefb] font-semibold'>
-                Adelina Margulis
+                Adeline Margulis
               </p>
             </div>
 

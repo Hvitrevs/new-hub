@@ -10,8 +10,8 @@ import { projectDetails } from './data/Data'
 export const Projects = () => {
   return (
     <>
-      <div className='flex items-center'>
-        <div className='xxs:mt-[-10px] md:mt-[1rem] 2xl:mt-[2rem] xxs:pr-4 xxs:pl-2 xl:pl-20 xl:pr-5 2xl:pl-0 2xl:pr-0 md:pb-1 flex flex-col gap-2 justify-center items-center z-[10] max-w-[1150px]'>
+      <div className='flex items-center '>
+        <div className=' xxs:mt-[-10px] md:mt-[1rem] 2xl:mt-[2rem] xxs:pr-4 xxs:pl-2 xl:pl-20 xl:pr-5 2xl:pl-0 2xl:pr-0 md:pb-1 flex flex-col gap-2 justify-center items-center z-[10] max-w-[1150px]'>
           <h4 className='md:text-[18px] xxs:text-[9px] xxs:font-bold md:font-semibold'>
             See what
           </h4>
