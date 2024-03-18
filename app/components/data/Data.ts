@@ -2,6 +2,30 @@
 
 export const projectDetails = [
   {
+    id: 0,
+    color: 'red',
+    project_name: 'Orpheus Chatbot',
+    project_desc: 'Contextual chatbot that uses Tensorflow and Machine Learning. Front-end part is made with Next.js and Tailwind',
+    tech_stack: 'PyTorch',
+    project_img: '/orpheus.png', 
+    project_url: 'https://orpheus-bot.netlify.app',
+    project_page:'https://github.com/Hvitrevs/bot-react',
+    widgetInfo: [
+      {
+        id: 1,
+        title: 'PyTorch',
+      },
+      {
+        id: 2,
+        title: 'Flask',
+      },
+      {
+        id: 3,
+        title: 'ML',
+      },
+    ],
+  },
+  {
     id: 1,
     color: 'red',
     project_name: 'Weather Desktop App',
