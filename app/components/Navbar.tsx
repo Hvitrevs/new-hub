@@ -15,7 +15,7 @@ const Navbar = () => {
 
         {/* logo */}
         <h1 className='flex flex-row flex-nowrap px-3 xxs:text-[10px] md:text-[15px] font-bold dark:text-[#aec1d4]'>
-          Hivt
+          Hvit
           <span className='text-[#ff7944]'>
             revs🦊
           </span>
