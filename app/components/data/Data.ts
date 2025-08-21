@@ -13,15 +13,15 @@ export const projectDetails = [
     widgetInfo: [
       {
         id: 1,
-        title: 'PyTorch',
+        title: 'Vite',
       },
       {
         id: 2,
-        title: 'Flask',
+        title: 'React',
       },
       {
         id: 3,
-        title: 'ML',
+        title: 'Vercel',
       },
     ],
   },
