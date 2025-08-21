@@ -1,8 +1,32 @@
 
 
 export const projectDetails = [
-  {
+    {
     id: 0,
+    color: 'red',
+    project_name: 'Stripe Tipping Serverless Page for Twitch',
+    project_desc: 'No server, takes input from user and fills json file to submit it directly to Stripe (stripe dont do custom amount anymore, unless you use API)',
+    tech_stack: 'Vite',
+    project_img: '/prev.png', 
+    project_url: 'https://stripe-efr44uvcd-hvittzs-projects.vercel.app',
+    project_page:'https://github.com/Hvitrevs/stripe-pay',
+    widgetInfo: [
+      {
+        id: 1,
+        title: 'PyTorch',
+      },
+      {
+        id: 2,
+        title: 'Flask',
+      },
+      {
+        id: 3,
+        title: 'ML',
+      },
+    ],
+  },
+  {
+    id: 1,
     color: 'red',
     project_name: 'Orpheus Chatbot',
     project_desc: 'Contextual chatbot that uses Tensorflow and Machine Learning. Front-end part is made with Next.js and Tailwind',
@@ -26,7 +50,7 @@ export const projectDetails = [
     ],
   },
     {
-    id: 1,
+    id: 2,
     color: 'red',
     project_name: 'Chorus_project',
     project_desc: 'Bot detecting ban events and triggering custom effects for streaming platform Twitch',
@@ -42,7 +66,7 @@ export const projectDetails = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     color: 'red',
     project_name: 'Weather Desktop App',
     project_desc: 'This app leverages weather APIs to seamlessly convert data sourced from open-metio.com into a user-friendly web interface.',
@@ -62,7 +86,7 @@ export const projectDetails = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     project_name: 'Admin Dashboard App',
     project_desc: 'Front-End sales dashboard utilizing recharts into responsive webpage. No server side, demo version only.',
     tech_stack: ['Vite', 'TypeScript', 'SASS', 'React' ],
@@ -85,7 +109,7 @@ export const projectDetails = [
     ],
   },
   {
-  id: 4,
+  id: 5,
   project_name:  'Simple Enemy Shooter',
   project_desc: 'One-wave easy shooter game with pure vanilla JavaScript. To win you have to last against at least 70 enemies.',
   tech_stack: 'JavaScript',
