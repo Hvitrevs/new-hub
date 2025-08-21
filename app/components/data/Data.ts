@@ -8,7 +8,7 @@ export const projectDetails = [
     project_desc: 'No server, takes input from user and fills json file to submit it directly to Stripe (stripe dont do custom amount anymore, unless you use API)',
     tech_stack: 'Vite',
     project_img: '/prev.png', 
-    project_url: 'https://stripe-efr44uvcd-hvittzs-projects.vercel.app',
+    project_url: 'https://stripe-pay-rho.vercel.app',
     project_page:'https://github.com/Hvitrevs/stripe-pay',
     widgetInfo: [
       {
